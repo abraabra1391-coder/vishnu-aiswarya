@@ -616,3 +616,20 @@ main.is-visible{ opacity:1; transition:opacity 1.2s var(--ease-soft); }
   .skip-intro{ font-size:12px; padding:12px 22px; }
 }
 @media (min-width:1300px){ :root{ --container:860px; } }
+
+/* "|| Shree Ganeshay Namah ||" as plain text, without the box */
+.hero-mark{
+  background:none; border:0; border-radius:0; box-shadow:none; padding:0;
+  text-shadow:0 2px 4px rgba(0,0,0,.9), 0 3px 8px rgba(0,0,0,.6);
+}
+/* Phones: keep it on a single line */
+@media (max-width:600px){
+  .hero-mark{ white-space:nowrap; font-size:clamp(11px,3.4vw,14px); letter-spacing:.2em; }
+}
+
+/* Ganesha: plain golden emblem, no circle or background (same 60px size) */
+.ganesha-icon{
+  border:0; border-radius:0; background:none; box-shadow:none; padding:0;
+  object-fit:contain;
+  filter:drop-shadow(0 2px 4px rgba(0,0,0,.55));
+}
