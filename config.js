@@ -46,7 +46,7 @@ window.WEDDING = {
   /* ---------- MEDIA FILES ---------- */
   openingVideo:     "",  // the old video shows the previous couple's names; add the new one here (e.g. "assets/videos/opening-video.mp4")
   coverImage:       "assets/images/video-first-frame.jpg", // first frame of the video; also every section background
-  ganeshaImage:     "assets/images/ganesh.jpg",            // square image, shown in a small circle
+  ganeshaImage:     "assets/images/ganesh.png",            // transparent PNG, shown without a circle
   backgroundMusic:  "assets/audio/wedding-music.mp3",      // loops; starts on "Open Invitation"
 
   /* ---------- GALLERY ----------
@@ -89,9 +89,9 @@ window.WEDDING = {
     closingMessage:   "We look forward to celebrating this special occasion with you",
 
     // Footer credit line. Set to "" to hide it.
-    creditText:       "Created by",
-    creditLinkText:   "sahilmuhd.com",
-    creditLinkUrl:    "https://sahilmuhd.com"
+    creditText:       "",
+    creditLinkText:   "",
+    creditLinkUrl:    ""
   },
 
   /* ---------- OPTIONAL SECTIONS ----------
